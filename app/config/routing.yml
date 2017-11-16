@@ -1,0 +1,3 @@
+jh_tourisme:
+    resource: "@JHTourismeBundle/Resources/config/routing.yml"
+    prefix:   /
