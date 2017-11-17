@@ -17,11 +17,11 @@ class __TwigTemplate_aafec24866ea630e55347a147a6474466c679f874c4883739d4528318ab
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_881ca2306f5669dbf692b586abb1b49f66c052af79e9bc9286636504e205583e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_881ca2306f5669dbf692b586abb1b49f66c052af79e9bc9286636504e205583e->enter($__internal_881ca2306f5669dbf692b586abb1b49f66c052af79e9bc9286636504e205583e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "JHTourismeBundle::layout.html.twig"));
+        $__internal_e1569a740a49a8accce2b60f0249cb039901a7f6462259708678b29dce1e3974 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_e1569a740a49a8accce2b60f0249cb039901a7f6462259708678b29dce1e3974->enter($__internal_e1569a740a49a8accce2b60f0249cb039901a7f6462259708678b29dce1e3974_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "JHTourismeBundle::layout.html.twig"));
 
-        $__internal_fa55d885e45a57be3546d02d60d80100f9f30ad3a22538366933595f61df10db = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_fa55d885e45a57be3546d02d60d80100f9f30ad3a22538366933595f61df10db->enter($__internal_fa55d885e45a57be3546d02d60d80100f9f30ad3a22538366933595f61df10db_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "JHTourismeBundle::layout.html.twig"));
+        $__internal_1a55889351ae35aea3e84d1f2f2570d5c8b098de23781993be5004fdbfd3587c = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_1a55889351ae35aea3e84d1f2f2570d5c8b098de23781993be5004fdbfd3587c->enter($__internal_1a55889351ae35aea3e84d1f2f2570d5c8b098de23781993be5004fdbfd3587c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "JHTourismeBundle::layout.html.twig"));
 
         // line 2
         echo "
@@ -57,35 +57,14 @@ class __TwigTemplate_aafec24866ea630e55347a147a6474466c679f874c4883739d4528318ab
 \t\t\t\t</div>
 \t\t\t</div>
 \t\t</header>
-   \t\t<nav class=\"navbar has-shadow\">
-\t\t\t<div class=\"container\">
-\t\t\t\t<div class=\"navbar-brand\">
-\t\t\t\t\t<a href=\"\" class=\"navbar-item is-hidden-desktop\">
-\t\t\t\t\t\t<span class=\"icon socials\">
-\t\t\t\t\t\t\t<i class=\"fa fa-facebook-official fa-2x\"></i>
-\t\t\t\t\t\t</span>
-\t\t\t\t\t</a>
-\t\t\t\t\t<a href=\"\" class=\"navbar-item is-hidden-desktop\">
-\t\t\t\t\t\t<span class=\"icon socials\">
-\t\t\t\t\t\t\t<i class=\"fa fa-twitter fa-2x\"></i>
-\t\t\t\t\t\t</span>
-\t\t\t\t\t</a>
-\t\t\t\t\t<div class=\"navbar-burger burger\" data-target=\"navbarMenu\">
-\t\t\t\t\t<span></span>
-\t\t\t\t\t<span></span>
-\t\t\t\t\t<span></span>
-\t\t\t\t\t</div>
-\t\t\t\t</div>
-\t\t\t\t<div id=\"navbarMenu\" class=\"navbar-menu\">
-\t\t\t\t\t";
-        // line 80
-        echo "\t\t\t\t</div>
-\t\t\t</div>
-\t\t</nav>
+   \t\t";
+        // line 32
+        echo $this->env->getRuntime('Symfony\Bridge\Twig\Extension\HttpKernelRuntime')->renderFragment(Symfony\Bridge\Twig\Extension\HttpKernelExtension::controller("JHTourismeBundle:Tourisme:showNavbar"));
+        echo "
     \t";
-        // line 83
+        // line 33
         $this->displayBlock('body', $context, $blocks);
-        // line 85
+        // line 35
         echo "    \t<footer class=\"footer\">
 \t\t\t<div class=\"container\">
 \t\t\t\t<div class=\"columns is-variable is-8\">
@@ -121,47 +100,47 @@ class __TwigTemplate_aafec24866ea630e55347a147a6474466c679f874c4883739d4528318ab
 \t</body>
 </html>";
         
-        $__internal_881ca2306f5669dbf692b586abb1b49f66c052af79e9bc9286636504e205583e->leave($__internal_881ca2306f5669dbf692b586abb1b49f66c052af79e9bc9286636504e205583e_prof);
+        $__internal_e1569a740a49a8accce2b60f0249cb039901a7f6462259708678b29dce1e3974->leave($__internal_e1569a740a49a8accce2b60f0249cb039901a7f6462259708678b29dce1e3974_prof);
 
         
-        $__internal_fa55d885e45a57be3546d02d60d80100f9f30ad3a22538366933595f61df10db->leave($__internal_fa55d885e45a57be3546d02d60d80100f9f30ad3a22538366933595f61df10db_prof);
+        $__internal_1a55889351ae35aea3e84d1f2f2570d5c8b098de23781993be5004fdbfd3587c->leave($__internal_1a55889351ae35aea3e84d1f2f2570d5c8b098de23781993be5004fdbfd3587c_prof);
 
     }
 
     // line 7
     public function block_title($context, array $blocks = array())
     {
-        $__internal_3e2c0083e324aab4ab7de23f993eb7fa0f1203d28c87211872e418071d24ef3d = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_3e2c0083e324aab4ab7de23f993eb7fa0f1203d28c87211872e418071d24ef3d->enter($__internal_3e2c0083e324aab4ab7de23f993eb7fa0f1203d28c87211872e418071d24ef3d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_7d2790667e8e89f252b1e414a01aa4a912be39fc3a234844a1d19a551a1c15a9 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_7d2790667e8e89f252b1e414a01aa4a912be39fc3a234844a1d19a551a1c15a9->enter($__internal_7d2790667e8e89f252b1e414a01aa4a912be39fc3a234844a1d19a551a1c15a9_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
-        $__internal_4a248b31012e986c0b01edf0fc7317dee744a5c6f7075197cda9e1c5cb9f6041 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_4a248b31012e986c0b01edf0fc7317dee744a5c6f7075197cda9e1c5cb9f6041->enter($__internal_4a248b31012e986c0b01edf0fc7317dee744a5c6f7075197cda9e1c5cb9f6041_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_7ae69460a41652560918b869a5deedccca20ff4e1fd698bb555f93858ef615ec = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_7ae69460a41652560918b869a5deedccca20ff4e1fd698bb555f93858ef615ec->enter($__internal_7ae69460a41652560918b869a5deedccca20ff4e1fd698bb555f93858ef615ec_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
         echo "JH Tourisme";
         
-        $__internal_4a248b31012e986c0b01edf0fc7317dee744a5c6f7075197cda9e1c5cb9f6041->leave($__internal_4a248b31012e986c0b01edf0fc7317dee744a5c6f7075197cda9e1c5cb9f6041_prof);
+        $__internal_7ae69460a41652560918b869a5deedccca20ff4e1fd698bb555f93858ef615ec->leave($__internal_7ae69460a41652560918b869a5deedccca20ff4e1fd698bb555f93858ef615ec_prof);
 
         
-        $__internal_3e2c0083e324aab4ab7de23f993eb7fa0f1203d28c87211872e418071d24ef3d->leave($__internal_3e2c0083e324aab4ab7de23f993eb7fa0f1203d28c87211872e418071d24ef3d_prof);
+        $__internal_7d2790667e8e89f252b1e414a01aa4a912be39fc3a234844a1d19a551a1c15a9->leave($__internal_7d2790667e8e89f252b1e414a01aa4a912be39fc3a234844a1d19a551a1c15a9_prof);
 
     }
 
-    // line 83
+    // line 33
     public function block_body($context, array $blocks = array())
     {
-        $__internal_04b6cb4aa62a09ad9a3c36ff732da643f0f63c8704d452171e7cc73252110327 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_04b6cb4aa62a09ad9a3c36ff732da643f0f63c8704d452171e7cc73252110327->enter($__internal_04b6cb4aa62a09ad9a3c36ff732da643f0f63c8704d452171e7cc73252110327_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_975ca34848aa50219618680cacbd41c72e6ded532eae6047ca95e78c2e4439c9 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_975ca34848aa50219618680cacbd41c72e6ded532eae6047ca95e78c2e4439c9->enter($__internal_975ca34848aa50219618680cacbd41c72e6ded532eae6047ca95e78c2e4439c9_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_3b4df17b8a9b9321a0f8a642b37e8de16a20f380cb767252e45ee4eb4564fec0 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_3b4df17b8a9b9321a0f8a642b37e8de16a20f380cb767252e45ee4eb4564fec0->enter($__internal_3b4df17b8a9b9321a0f8a642b37e8de16a20f380cb767252e45ee4eb4564fec0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_1fa65f4e1feec684204d36010271d61f7f5ba513f2ea7ddfc794917c58e276ce = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_1fa65f4e1feec684204d36010271d61f7f5ba513f2ea7ddfc794917c58e276ce->enter($__internal_1fa65f4e1feec684204d36010271d61f7f5ba513f2ea7ddfc794917c58e276ce_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        // line 84
+        // line 34
         echo "    \t";
         
-        $__internal_3b4df17b8a9b9321a0f8a642b37e8de16a20f380cb767252e45ee4eb4564fec0->leave($__internal_3b4df17b8a9b9321a0f8a642b37e8de16a20f380cb767252e45ee4eb4564fec0_prof);
+        $__internal_1fa65f4e1feec684204d36010271d61f7f5ba513f2ea7ddfc794917c58e276ce->leave($__internal_1fa65f4e1feec684204d36010271d61f7f5ba513f2ea7ddfc794917c58e276ce_prof);
 
         
-        $__internal_04b6cb4aa62a09ad9a3c36ff732da643f0f63c8704d452171e7cc73252110327->leave($__internal_04b6cb4aa62a09ad9a3c36ff732da643f0f63c8704d452171e7cc73252110327_prof);
+        $__internal_975ca34848aa50219618680cacbd41c72e6ded532eae6047ca95e78c2e4439c9->leave($__internal_975ca34848aa50219618680cacbd41c72e6ded532eae6047ca95e78c2e4439c9_prof);
 
     }
 
@@ -170,9 +149,14 @@ class __TwigTemplate_aafec24866ea630e55347a147a6474466c679f874c4883739d4528318ab
         return "JHTourismeBundle::layout.html.twig";
     }
 
+    public function isTraitable()
+    {
+        return false;
+    }
+
     public function getDebugInfo()
     {
-        return array (  159 => 84,  150 => 83,  132 => 7,  89 => 85,  87 => 83,  82 => 80,  34 => 7,  27 => 2,);
+        return array (  138 => 34,  129 => 33,  111 => 7,  68 => 35,  66 => 33,  62 => 32,  34 => 7,  27 => 2,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -216,57 +200,7 @@ class __TwigTemplate_aafec24866ea630e55347a147a6474466c679f874c4883739d4528318ab
 \t\t\t\t</div>
 \t\t\t</div>
 \t\t</header>
-   \t\t<nav class=\"navbar has-shadow\">
-\t\t\t<div class=\"container\">
-\t\t\t\t<div class=\"navbar-brand\">
-\t\t\t\t\t<a href=\"\" class=\"navbar-item is-hidden-desktop\">
-\t\t\t\t\t\t<span class=\"icon socials\">
-\t\t\t\t\t\t\t<i class=\"fa fa-facebook-official fa-2x\"></i>
-\t\t\t\t\t\t</span>
-\t\t\t\t\t</a>
-\t\t\t\t\t<a href=\"\" class=\"navbar-item is-hidden-desktop\">
-\t\t\t\t\t\t<span class=\"icon socials\">
-\t\t\t\t\t\t\t<i class=\"fa fa-twitter fa-2x\"></i>
-\t\t\t\t\t\t</span>
-\t\t\t\t\t</a>
-\t\t\t\t\t<div class=\"navbar-burger burger\" data-target=\"navbarMenu\">
-\t\t\t\t\t<span></span>
-\t\t\t\t\t<span></span>
-\t\t\t\t\t<span></span>
-\t\t\t\t\t</div>
-\t\t\t\t</div>
-\t\t\t\t<div id=\"navbarMenu\" class=\"navbar-menu\">
-\t\t\t\t\t{#<div class=\"navbar-start is-hidden-desktop\">
-\t\t\t\t\t\t<div class=\"navbar-item\">
-\t\t\t\t\t\t\t{foreach \$menus as \$menu}
-\t\t\t\t\t\t\t\t<a href=\"{\$menu[\"Url\"]}\" class=\"navbar-item {\$menu['Class']}\">
-\t\t\t\t\t\t\t\t\t{\$menu[\"Name\"]}
-\t\t\t\t\t\t\t\t</a>
-\t\t\t\t\t\t\t{/foreach}
-\t\t\t\t\t\t</div>
-\t\t\t\t\t</div>
-\t\t\t\t\t<div class=\"navbar-tabs is-hidden-touch\">
-\t\t\t\t\t\t{foreach \$menus as \$menu}
-\t\t\t\t\t\t\t<a href=\"{\$menu[\"Url\"]}\" class=\"navbar-item is-tab {\$menu['Class']}\">
-\t\t\t\t\t\t\t\t{\$menu[\"Name\"]}
-\t\t\t\t\t\t\t</a>
-\t\t\t\t\t\t{/foreach}
-\t\t\t\t\t</div>
-\t\t\t\t\t<div class=\"navbar-end is-hidden-touch\">
-\t\t\t\t\t\t<a href=\"\" class=\"navbar-item\">
-\t\t\t\t\t\t\t<span class=\"icon socials\">
-\t\t\t\t\t\t\t\t<i class=\"fa fa-facebook-official fa-2x\"></i>
-\t\t\t\t\t\t\t</span>
-\t\t\t\t\t\t</a>
-\t\t\t\t\t\t<a href=\"\" class=\"navbar-item\">
-\t\t\t\t\t\t\t<span class=\"icon socials\">
-\t\t\t\t\t\t\t\t<i class=\"fa fa-twitter fa-2x\"></i>
-\t\t\t\t\t\t\t</span>
-\t\t\t\t\t\t</a>
-\t\t\t\t\t</div>#}
-\t\t\t\t</div>
-\t\t\t</div>
-\t\t</nav>
+   \t\t{{ render(controller(\"JHTourismeBundle:Tourisme:showNavbar\")) }}
     \t{% block body %}
     \t{% endblock %}
     \t<footer class=\"footer\">

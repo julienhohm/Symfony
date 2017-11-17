@@ -10,4 +10,17 @@ class TourismeController extends Controller
     {
         return $this->render('JHTourismeBundle:Tourisme:home.html.twig');
     }
+	
+	public function showNavbarAction()
+	{
+        $navbar = $this->getDoctrine()->getManager()->getRepository("JHTourismeBundle:Menu")->findAll();
+		return $this->render("JHTourismeBundle::menu.html.twig", array("navbar" => $navbar));
+	}
+	
+	public function addAction()
+	{
+		
+		$activity = new Activity();
+		
+	}
 }
