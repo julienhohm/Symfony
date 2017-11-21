@@ -72,3 +72,9 @@ e6c223,::1,GET,http://localhost:8080/symfony/web/app_dev.php/,1510922943,,500
 185bc6,::1,GET,http://localhost:8080/symfony/web/app_dev.php/,1510923191,,500
 af8a33,127.0.0.1,GET,http://localhost:8080/symfony/web/app_dev.php/_fragment?_path=_format%3Dhtml%26_locale%3Dfr%26_controller%3DJHTourismeBundle%253ATourisme%253AshowNavbar,1510923203,8409e9,200
 8409e9,::1,GET,http://localhost:8080/symfony/web/app_dev.php/,1510923203,,200
+7abd91,::1,GET,http://localhost:8080/symfony/web/app_dev.php/,1511266981,6d1ce7,200
+6d1ce7,::1,GET,http://localhost:8080/symfony/web/app_dev.php/,1511266981,,500
+9d1d4d,::1,GET,http://localhost:8080/symfony/web/app_dev.php/,1511266986,a77c63,200
+a77c63,::1,GET,http://localhost:8080/symfony/web/app_dev.php/,1511266986,,500
+d8d318,::1,GET,http://localhost:8080/symfony/web/app_dev.php/,1511266992,044c73,200
+044c73,::1,GET,http://localhost:8080/symfony/web/app_dev.php/,1511266992,,500
