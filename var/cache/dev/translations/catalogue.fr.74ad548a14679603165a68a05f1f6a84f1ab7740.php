@@ -106,7 +106,7 @@ $catalogue = new MessageCatalogue('fr', array (
     'Account is disabled.' => 'Le compte est désactivé.',
     'Account is locked.' => 'Le compte est bloqué.',
   ),
-  'activity' => 
+  'messages' => 
   array (
     'add.title' => 'Ajouter une activité',
   ),
