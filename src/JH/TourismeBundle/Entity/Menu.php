@@ -22,9 +22,9 @@ class Menu
     /**
      * @var integer
      *
-     * @ORM\Column(name="order", type="integer", nullable=false)
+     * @ORM\Column(name="orderBy", type="integer", nullable=false)
      */
-    private $order;
+    private $orderBy;
 
     /**
      * @var string
@@ -68,30 +68,6 @@ class Menu
     }
 
     /**
-     * Set order
-     *
-     * @param integer $order
-     *
-     * @return Menu
-     */
-    public function setOrder($order)
-    {
-        $this->order = $order;
-
-        return $this;
-    }
-
-    /**
-     * Get order
-     *
-     * @return integer
-     */
-    public function getOrder()
-    {
-        return $this->order;
-    }
-
-    /**
      * Set url
      *
      * @param string $url
@@ -123,5 +99,29 @@ class Menu
     public function getId()
     {
         return $this->id;
+    }
+
+    /**
+     * Set orderBy
+     *
+     * @param integer $orderBy
+     *
+     * @return Menu
+     */
+    public function setOrderBy($orderBy)
+    {
+        $this->orderBy = $orderBy;
+
+        return $this;
+    }
+
+    /**
+     * Get orderBy
+     *
+     * @return integer
+     */
+    public function getOrderBy()
+    {
+        return $this->orderBy;
     }
 }

@@ -16,11 +16,4 @@ class TourismeController extends Controller
         $navbar = $this->getDoctrine()->getManager()->getRepository("JHTourismeBundle:Menu")->findAll();
 		return $this->render("JHTourismeBundle::menu.html.twig", array("navbar" => $navbar));
 	}
-	
-	public function addAction()
-	{
-		
-		$activity = new Activity();
-		
-	}
 }

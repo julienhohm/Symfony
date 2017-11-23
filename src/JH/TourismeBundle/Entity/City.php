@@ -31,7 +31,7 @@ class City
     /**
      * @var string
      *
-     * @ORM\Column(name="postal_code", type="string", length=5, unique=true)
+     * @ORM\Column(name="postal_code", type="string", length=5)
      */
     private $postalCode;
 

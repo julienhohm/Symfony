@@ -31,7 +31,7 @@ class City
     /**
      * @var string
      *
-     * @ORM\Column(name="postal_code", type="string", length=5, unique=true)
+     * @ORM\Column(name="postal_code", type="string", length=5)
      */
     private $postalCode;
 
@@ -99,5 +99,28 @@ class City
     {
         return $this->postalCode;
     }
-}
 
+    /**
+     * Set department
+     *
+     * @param \JH\TourismeBundle\Entity\Department $department
+     *
+     * @return City
+     */
+    public function setDepartment(Department $department)
+    {
+        $this->department = $department;
+
+        return $this;
+    }
+
+    /**
+     * Get department
+     *
+     * @return \JH\TourismeBundle\Entity\Department
+     */
+    public function getDepartment()
+    {
+        return $this->department;
+    }
+}

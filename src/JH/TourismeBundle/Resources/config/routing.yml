@@ -1,3 +1,7 @@
 home:
     path: /
     defaults: { _controller: JHTourismeBundle:Tourisme:home }
+    
+add_activity:
+    path: /activité/ajouter
+    defaults: { _controller: JHTourismeBundle:Activity:add }
