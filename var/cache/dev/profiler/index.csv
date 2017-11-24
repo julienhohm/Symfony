@@ -1,4 +1,6 @@
-305aab,127.0.0.1,GET,http://localhost:8080/symfony/web/app_dev.php/_fragment?_path=_format%3Dhtml%26_locale%3Dfr%26_controller%3DJHTourismeBundle%253ATourisme%253AshowNavbar,1511441910,de1bc5,200
-de1bc5,::1,GET,http://localhost:8080/symfony/web/app_dev.php/activit%C3%A9/ajouter,1511441911,,200
-17f838,127.0.0.1,GET,http://localhost:8080/symfony/web/app_dev.php/_fragment?_path=_format%3Dhtml%26_locale%3Dfr%26_controller%3DJHTourismeBundle%253ATourisme%253AshowNavbar,1511442059,f17ec9,200
-f17ec9,::1,GET,http://localhost:8080/symfony/web/app_dev.php/activit%C3%A9/ajouter,1511442059,,200
+2ff37a,127.0.0.1,GET,http://localhost/symfony/web/app_dev.php/_fragment?_path=_format%3Dhtml%26_locale%3Dfr%26_controller%3DJHTourismeBundle%253ATourisme%253AshowNavbar,1511529486,72e5fc,200
+72e5fc,::1,GET,http://localhost/symfony/web/app_dev.php/,1511529487,,200
+e14277,127.0.0.1,GET,http://localhost/symfony/web/app_dev.php/_fragment?_path=_format%3Dhtml%26_locale%3Dfr%26_controller%3DJHTourismeBundle%253ATourisme%253AshowNavbar,1511529596,e907f8,200
+e907f8,::1,GET,http://localhost/symfony/web/app_dev.php/,1511529596,,200
+055a03,127.0.0.1,GET,http://localhost/symfony/web/app_dev.php/_fragment?_path=_format%3Dhtml%26_locale%3Dfr%26_controller%3DJHTourismeBundle%253ATourisme%253AshowNavbar,1511529598,a51dbe,200
+a51dbe,::1,GET,http://localhost/symfony/web/app_dev.php/activit%C3%A9/ajouter,1511529598,,200
