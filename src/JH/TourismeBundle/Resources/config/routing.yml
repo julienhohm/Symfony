@@ -3,5 +3,12 @@ home:
     defaults: { _controller: JHTourismeBundle:Tourisme:home }
     
 add_activity:
-    path: /activité/ajouter
+    path: /activite/ajouter
     defaults: { _controller: JHTourismeBundle:Activity:add }
+    
+view_activity:
+    path: /activite/voir/{id}
+    defaults:
+        _controller: JHTourismeBundle:Activity:view
+    requirements:
+        id: \d+

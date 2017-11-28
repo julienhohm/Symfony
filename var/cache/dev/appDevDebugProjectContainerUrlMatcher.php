@@ -113,8 +113,13 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
         }
 
         // add_activity
-        if ('/activité/ajouter' === $pathinfo) {
+        if ('/activite/ajouter' === $pathinfo) {
             return array (  '_controller' => 'JH\\TourismeBundle\\Controller\\ActivityController::addAction',  '_route' => 'add_activity',);
+        }
+
+        // view_activity
+        if (0 === strpos($pathinfo, '/activite/voir') && preg_match('#^/activite/voir/(?P<id>\\d+)$#s', $pathinfo, $matches)) {
+            return $this->mergeDefaults(array_replace($matches, array('_route' => 'view_activity')), array (  '_controller' => 'JH\\TourismeBundle\\Controller\\ActivityController::viewAction',));
         }
 
         throw 0 < count($allow) ? new MethodNotAllowedException(array_unique($allow)) : new ResourceNotFoundException();

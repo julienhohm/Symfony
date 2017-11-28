@@ -8,6 +8,48 @@
 					<h1 class="title">{{ 'add.title'|trans }}</h1>
 				</div>
 				<div class="column">
+                    {{ form_start(form) }}
+                    
+                    {{ form_errors(form) }}
+                    
+                    <div class="field">
+                        {{ form_label(form.name, "Nom :", {'label_attr': {'class': 'label'}}) }}
+                        {{ form_errors(form.name) }}
+                        <div class="control">
+                            {{ form_widget(form.name, {'attr': {'class': 'input'}}) }}
+                        </div>
+                    </div>
+                    
+                    <div class="field">
+                        {{ form_label(form.description, "Description :", {'label_attr': {'class': 'label'}}) }}
+                        {{ form_errors(form.description) }}
+                        <div class="control">
+                            {{ form_widget(form.description, {'attr': {'class': 'textarea'}}) }}
+                        </div>
+                    </div>
+                    
+                    <div class="field">
+                        {{ form_label(form.address, "Adresse :", {'label_attr': {'class': 'label'}}) }}
+                        {{ form_errors(form.address) }}
+                        <div class="control">
+                            {{ form_widget(form.address, {'attr': {'class': 'textarea'}}) }}
+                        </div>
+                    </div>
+                    
+                    <div class="field">
+                        {{ form_label(form.website, "Site internet :", {'label_attr': {'class': 'label'}}) }}
+                        {{ form_errors(form.website) }}
+                        <div class="control">
+                            {{ form_widget(form.website, {'attr': {'class': 'input'}}) }}
+                        </div>
+                    </div>
+                    
+                    {{ form_widget(form.save, {'attr': {'class': 'button is-primary'}}) }}
+                    
+                    {{ form_rest(form) }}
+                    
+                    {{ form_end(form) }}
+                    
 					{#{form $form, 'form:saveActivity'}
 						{formcontrols}
 						<div class="field">

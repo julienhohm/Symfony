@@ -1,6 +1,6 @@
 <?php
 
-/* @JHTourisme/layout.html.twig */
+/* JHTourismeBundle::layout.html.twig */
 class __TwigTemplate_b9270a048a3dde272060417695eb8aaa57acca19483bc26ff7951407bd1671ce extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
@@ -17,11 +17,11 @@ class __TwigTemplate_b9270a048a3dde272060417695eb8aaa57acca19483bc26ff7951407bd1
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_00fdead445442d2d6e0c6d90aa1851d6aff238c6b734fda7d802216fe6ba4208 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_00fdead445442d2d6e0c6d90aa1851d6aff238c6b734fda7d802216fe6ba4208->enter($__internal_00fdead445442d2d6e0c6d90aa1851d6aff238c6b734fda7d802216fe6ba4208_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@JHTourisme/layout.html.twig"));
+        $__internal_5ece752f3a4ffb89e3208bfbe310ebb45eaeda5f2e4d5024524e2d152ff4e772 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_5ece752f3a4ffb89e3208bfbe310ebb45eaeda5f2e4d5024524e2d152ff4e772->enter($__internal_5ece752f3a4ffb89e3208bfbe310ebb45eaeda5f2e4d5024524e2d152ff4e772_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "JHTourismeBundle::layout.html.twig"));
 
-        $__internal_4a91e14a077984c36313414316848209177ba0d245ca612ec1a3710e303108d1 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_4a91e14a077984c36313414316848209177ba0d245ca612ec1a3710e303108d1->enter($__internal_4a91e14a077984c36313414316848209177ba0d245ca612ec1a3710e303108d1_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@JHTourisme/layout.html.twig"));
+        $__internal_5ac22df577a12ed00500bc4d9dc9238edc9bafc1ea343aee2bd580e69f7d6b30 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_5ac22df577a12ed00500bc4d9dc9238edc9bafc1ea343aee2bd580e69f7d6b30->enter($__internal_5ac22df577a12ed00500bc4d9dc9238edc9bafc1ea343aee2bd580e69f7d6b30_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "JHTourismeBundle::layout.html.twig"));
 
         // line 2
         echo "
@@ -103,53 +103,53 @@ class __TwigTemplate_b9270a048a3dde272060417695eb8aaa57acca19483bc26ff7951407bd1
 \t</body>
 </html>";
         
-        $__internal_00fdead445442d2d6e0c6d90aa1851d6aff238c6b734fda7d802216fe6ba4208->leave($__internal_00fdead445442d2d6e0c6d90aa1851d6aff238c6b734fda7d802216fe6ba4208_prof);
+        $__internal_5ece752f3a4ffb89e3208bfbe310ebb45eaeda5f2e4d5024524e2d152ff4e772->leave($__internal_5ece752f3a4ffb89e3208bfbe310ebb45eaeda5f2e4d5024524e2d152ff4e772_prof);
 
         
-        $__internal_4a91e14a077984c36313414316848209177ba0d245ca612ec1a3710e303108d1->leave($__internal_4a91e14a077984c36313414316848209177ba0d245ca612ec1a3710e303108d1_prof);
+        $__internal_5ac22df577a12ed00500bc4d9dc9238edc9bafc1ea343aee2bd580e69f7d6b30->leave($__internal_5ac22df577a12ed00500bc4d9dc9238edc9bafc1ea343aee2bd580e69f7d6b30_prof);
 
     }
 
     // line 7
     public function block_title($context, array $blocks = array())
     {
-        $__internal_82067f72e2d212dfb1a44ce67eddbdbf0e568cc3809543af6ef21163818f9652 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_82067f72e2d212dfb1a44ce67eddbdbf0e568cc3809543af6ef21163818f9652->enter($__internal_82067f72e2d212dfb1a44ce67eddbdbf0e568cc3809543af6ef21163818f9652_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_e62a2ba15c8be1294d8e4d5ddb0983cd97439d17f270a394efa934563d17252d = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_e62a2ba15c8be1294d8e4d5ddb0983cd97439d17f270a394efa934563d17252d->enter($__internal_e62a2ba15c8be1294d8e4d5ddb0983cd97439d17f270a394efa934563d17252d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
-        $__internal_6ca290d12d28e01cac1e81bcbda500120d780064053112abe2faa0c0f59186a0 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_6ca290d12d28e01cac1e81bcbda500120d780064053112abe2faa0c0f59186a0->enter($__internal_6ca290d12d28e01cac1e81bcbda500120d780064053112abe2faa0c0f59186a0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_53b315437d6c6062e7eda0830810eebb418b2a0a8e225a408f11e68527c4fdf4 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_53b315437d6c6062e7eda0830810eebb418b2a0a8e225a408f11e68527c4fdf4->enter($__internal_53b315437d6c6062e7eda0830810eebb418b2a0a8e225a408f11e68527c4fdf4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
         echo "JH Tourisme";
         
-        $__internal_6ca290d12d28e01cac1e81bcbda500120d780064053112abe2faa0c0f59186a0->leave($__internal_6ca290d12d28e01cac1e81bcbda500120d780064053112abe2faa0c0f59186a0_prof);
+        $__internal_53b315437d6c6062e7eda0830810eebb418b2a0a8e225a408f11e68527c4fdf4->leave($__internal_53b315437d6c6062e7eda0830810eebb418b2a0a8e225a408f11e68527c4fdf4_prof);
 
         
-        $__internal_82067f72e2d212dfb1a44ce67eddbdbf0e568cc3809543af6ef21163818f9652->leave($__internal_82067f72e2d212dfb1a44ce67eddbdbf0e568cc3809543af6ef21163818f9652_prof);
+        $__internal_e62a2ba15c8be1294d8e4d5ddb0983cd97439d17f270a394efa934563d17252d->leave($__internal_e62a2ba15c8be1294d8e4d5ddb0983cd97439d17f270a394efa934563d17252d_prof);
 
     }
 
     // line 33
     public function block_body($context, array $blocks = array())
     {
-        $__internal_a3f84e82decc90278d5c09c86460f103d447e1c7ee05e19d88cc516ae015694e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_a3f84e82decc90278d5c09c86460f103d447e1c7ee05e19d88cc516ae015694e->enter($__internal_a3f84e82decc90278d5c09c86460f103d447e1c7ee05e19d88cc516ae015694e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_082b376afdd8bda3a84cb80238f82dc2e04ceb7d685081c9e23b8858d86fc1ef = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_082b376afdd8bda3a84cb80238f82dc2e04ceb7d685081c9e23b8858d86fc1ef->enter($__internal_082b376afdd8bda3a84cb80238f82dc2e04ceb7d685081c9e23b8858d86fc1ef_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_56fe97fd85b6c9ce34fdd09c9fb1cad1bb7d97ef79bab5b5641b89d6d0978488 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_56fe97fd85b6c9ce34fdd09c9fb1cad1bb7d97ef79bab5b5641b89d6d0978488->enter($__internal_56fe97fd85b6c9ce34fdd09c9fb1cad1bb7d97ef79bab5b5641b89d6d0978488_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_5b6f994d0e7d90b5de26bffd5adadb9d0ee37e9332d6bdfa124fbd387c704cbd = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_5b6f994d0e7d90b5de26bffd5adadb9d0ee37e9332d6bdfa124fbd387c704cbd->enter($__internal_5b6f994d0e7d90b5de26bffd5adadb9d0ee37e9332d6bdfa124fbd387c704cbd_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 34
         echo "    \t";
         
-        $__internal_56fe97fd85b6c9ce34fdd09c9fb1cad1bb7d97ef79bab5b5641b89d6d0978488->leave($__internal_56fe97fd85b6c9ce34fdd09c9fb1cad1bb7d97ef79bab5b5641b89d6d0978488_prof);
+        $__internal_5b6f994d0e7d90b5de26bffd5adadb9d0ee37e9332d6bdfa124fbd387c704cbd->leave($__internal_5b6f994d0e7d90b5de26bffd5adadb9d0ee37e9332d6bdfa124fbd387c704cbd_prof);
 
         
-        $__internal_a3f84e82decc90278d5c09c86460f103d447e1c7ee05e19d88cc516ae015694e->leave($__internal_a3f84e82decc90278d5c09c86460f103d447e1c7ee05e19d88cc516ae015694e_prof);
+        $__internal_082b376afdd8bda3a84cb80238f82dc2e04ceb7d685081c9e23b8858d86fc1ef->leave($__internal_082b376afdd8bda3a84cb80238f82dc2e04ceb7d685081c9e23b8858d86fc1ef_prof);
 
     }
 
     public function getTemplateName()
     {
-        return "@JHTourisme/layout.html.twig";
+        return "JHTourismeBundle::layout.html.twig";
     }
 
     public function isTraitable()
@@ -239,6 +239,6 @@ class __TwigTemplate_b9270a048a3dde272060417695eb8aaa57acca19483bc26ff7951407bd1
 \t\t\t</div>
 \t\t</div>
 \t</body>
-</html>", "@JHTourisme/layout.html.twig", "C:\\wamp64\\www\\Symfony\\src\\JH\\TourismeBundle\\Resources\\views\\layout.html.twig");
+</html>", "JHTourismeBundle::layout.html.twig", "C:\\wamp64\\www\\Symfony\\src\\JH\\TourismeBundle\\Resources\\views\\layout.html.twig");
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-/* @JHTourisme/menu.html.twig */
+/* JHTourismeBundle::menu.html.twig */
 class __TwigTemplate_c29238303d7115d7178188d0db88bd546b97ad0094fd6fb54e44d699769a93e8 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
@@ -15,11 +15,11 @@ class __TwigTemplate_c29238303d7115d7178188d0db88bd546b97ad0094fd6fb54e44d699769
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_7fdd028467e95c2830e6ff94d5d9c7deaefa60f6c8c554bea78f1621464bdef5 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_7fdd028467e95c2830e6ff94d5d9c7deaefa60f6c8c554bea78f1621464bdef5->enter($__internal_7fdd028467e95c2830e6ff94d5d9c7deaefa60f6c8c554bea78f1621464bdef5_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@JHTourisme/menu.html.twig"));
+        $__internal_3646c8bed705eb09fd92dc04351d56bc719ad00e4a5e0f038a8573af8eae8864 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_3646c8bed705eb09fd92dc04351d56bc719ad00e4a5e0f038a8573af8eae8864->enter($__internal_3646c8bed705eb09fd92dc04351d56bc719ad00e4a5e0f038a8573af8eae8864_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "JHTourismeBundle::menu.html.twig"));
 
-        $__internal_3e4c0f6c103cfdf21fda4b96bc443f0c062f64e18db37ed4dc66dcd87a616e4d = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_3e4c0f6c103cfdf21fda4b96bc443f0c062f64e18db37ed4dc66dcd87a616e4d->enter($__internal_3e4c0f6c103cfdf21fda4b96bc443f0c062f64e18db37ed4dc66dcd87a616e4d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@JHTourisme/menu.html.twig"));
+        $__internal_2e346494fb961e6612ee5375066d3a10dbcd5f0ba81bf84c58c5dd80dcc2c9b2 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_2e346494fb961e6612ee5375066d3a10dbcd5f0ba81bf84c58c5dd80dcc2c9b2->enter($__internal_2e346494fb961e6612ee5375066d3a10dbcd5f0ba81bf84c58c5dd80dcc2c9b2_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "JHTourismeBundle::menu.html.twig"));
 
         // line 1
         echo "<nav class=\"navbar has-shadow\">
@@ -104,16 +104,16 @@ class __TwigTemplate_c29238303d7115d7178188d0db88bd546b97ad0094fd6fb54e44d699769
 \t</div>
 </nav>";
         
-        $__internal_7fdd028467e95c2830e6ff94d5d9c7deaefa60f6c8c554bea78f1621464bdef5->leave($__internal_7fdd028467e95c2830e6ff94d5d9c7deaefa60f6c8c554bea78f1621464bdef5_prof);
+        $__internal_3646c8bed705eb09fd92dc04351d56bc719ad00e4a5e0f038a8573af8eae8864->leave($__internal_3646c8bed705eb09fd92dc04351d56bc719ad00e4a5e0f038a8573af8eae8864_prof);
 
         
-        $__internal_3e4c0f6c103cfdf21fda4b96bc443f0c062f64e18db37ed4dc66dcd87a616e4d->leave($__internal_3e4c0f6c103cfdf21fda4b96bc443f0c062f64e18db37ed4dc66dcd87a616e4d_prof);
+        $__internal_2e346494fb961e6612ee5375066d3a10dbcd5f0ba81bf84c58c5dd80dcc2c9b2->leave($__internal_2e346494fb961e6612ee5375066d3a10dbcd5f0ba81bf84c58c5dd80dcc2c9b2_prof);
 
     }
 
     public function getTemplateName()
     {
-        return "@JHTourisme/menu.html.twig";
+        return "JHTourismeBundle::menu.html.twig";
     }
 
     public function isTraitable()
@@ -186,6 +186,6 @@ class __TwigTemplate_c29238303d7115d7178188d0db88bd546b97ad0094fd6fb54e44d699769
 \t\t\t</div>
 \t\t</div>
 \t</div>
-</nav>", "@JHTourisme/menu.html.twig", "C:\\wamp64\\www\\Symfony\\src\\JH\\TourismeBundle\\Resources\\views\\menu.html.twig");
+</nav>", "JHTourismeBundle::menu.html.twig", "C:\\wamp64\\www\\Symfony\\src\\JH\\TourismeBundle\\Resources\\views\\menu.html.twig");
     }
 }
