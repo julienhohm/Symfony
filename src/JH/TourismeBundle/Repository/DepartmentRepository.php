@@ -10,4 +10,5 @@ namespace JH\TourismeBundle\Repository;
  */
 class DepartmentRepository extends \Doctrine\ORM\EntityRepository
 {
+    
 }
