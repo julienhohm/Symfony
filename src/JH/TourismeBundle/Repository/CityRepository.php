@@ -10,13 +10,15 @@ namespace JH\TourismeBundle\Repository;
  */
 class CityRepository extends \Doctrine\ORM\EntityRepository
 {
-    public function getAllByDepartment($id)
+    public function getByDepartment($id)
     {
         return $this
             ->createQueryBuilder("c")
             ->innerJoin("c.department", "d")
             ->where("d.id = :id")
                 ->setParameter("id", $id)
+            ->getQuery()
+            ->getArrayResult()
         ;
     }
 }

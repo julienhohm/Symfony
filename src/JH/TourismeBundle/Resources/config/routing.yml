@@ -12,3 +12,19 @@ view_activity:
         _controller: JHTourismeBundle:Activity:view
     requirements:
         id: \d+
+        
+add_activity_department_json:
+    path: /activite/ajouter/region/{regionId}
+    defaults:
+        _controller: JHTourismeBundle:Activity:fillDepartments
+        regionId: 1
+    requirements:
+        regionId: \d+
+        
+add_activity_city_json:
+    path: /activite/ajouter/departement/{departmentId}
+    defaults:
+        _controller: JHTourismeBundle:Activity:fillCities
+        departmentId: 1
+    requirements:
+        departmentId: \d+

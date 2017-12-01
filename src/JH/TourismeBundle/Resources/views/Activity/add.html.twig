@@ -1,5 +1,9 @@
 {% extends "JHTourismeBundle::layout.html.twig" %}
 
+{% block javascript %}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+{% endblock %}
+
 {% block body %}
 	<section class="section">
 		<div class="container">
@@ -13,61 +17,130 @@
                     {{ form_errors(form) }}
                     
                     <div class="field">
-                        {{ form_label(form.name, "Nom :", {'label_attr': {'class': 'label'}}) }}
+                        {{ form_label(form.name, "Nom :") }}
                         {{ form_errors(form.name) }}
                         <div class="control">
-                            {{ form_widget(form.name, {'attr': {'class': 'input'}}) }}
+                            {{ form_widget(form.name) }}
                         </div>
                     </div>
                     
                     <div class="field">
-                        {{ form_label(form.description, "Description :", {'label_attr': {'class': 'label'}}) }}
+                        {{ form_label(form.description, "Description :") }}
                         {{ form_errors(form.description) }}
                         <div class="control">
-                            {{ form_widget(form.description, {'attr': {'class': 'textarea'}}) }}
+                            {{ form_widget(form.description) }}
                         </div>
                     </div>
                     
                     <div class="field">
-                        {{ form_label(form.address, "Adresse :", {'label_attr': {'class': 'label'}}) }}
+                        {{ form_label(form.address, "Adresse :") }}
                         {{ form_errors(form.address) }}
                         <div class="control">
-                            {{ form_widget(form.address, {'attr': {'class': 'textarea'}}) }}
+                            {{ form_widget(form.address) }}
                         </div>
                     </div>
                     
                     <div class="field">
-                        {{ form_label(form.website, "Site internet :", {'label_attr': {'class': 'label'}}) }}
+                        {{ form_label(form.website, "Site internet :") }}
                         {{ form_errors(form.website) }}
                         <div class="control">
-                            {{ form_widget(form.website, {'attr': {'class': 'input'}}) }}
+                            {{ form_widget(form.website) }}
                         </div>
                     </div>
                     
-                    {{ form_widget(form.save, {'attr': {'class': 'button is-primary'}}) }}
+                    <div class="field">
+                        {{ form_label(form.region, "Region :") }}
+                        {{ form_errors(form.region) }}
+                        <div class="control">
+                            <div class="select">
+                                {{ form_widget(form.region) }}
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="field">
+                        {{ form_label(form.department, "Departement :") }}
+                        {{ form_errors(form.department) }}
+                        <div class="control">
+                            <div class="select">
+                                {{ form_widget(form.department) }}
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="field">
+                        {{ form_label(form.city, "Ville :") }}
+                        {{ form_errors(form.city) }}   
+                        <div class="control">
+                            <div class="select">
+                                {{ form_widget(form.city) }}
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    {{ form_widget(form.save) }}
                     
                     {{ form_rest(form) }}
                     
                     {{ form_end(form) }}
-                    
-					{#{form $form, 'form:saveActivity'}
-						{formcontrols}
-						<div class="field">
-							{ctrl_label}
-							<div class="control">
-								{ctrl_control}						
-							</div>
-						</div>
-						{/formcontrols}
-
-						<div class="field">
-							<div class="control">
-								{formsubmit}
-							</div>
-						</div>
-					{/form}#}
 				</div>
 			</div>
 		</div>
 	</section>
+    <script>
+        
+        // Get the dropdown region
+        var region = $("#activity_region");
+        
+        // Add a onchange event
+        region.change(function()
+        {
+        
+            $("#activity_city").html("Choose a city");
+			$("#activity_department").html("");
+            
+			$.getJSON(Routing.generate('add_activity_department_json', { regionId: this.value }), function(data)
+            {
+				
+				var options = ["<option value='' selected='selected'>Choose a department</option>"];
+                $.each(data, function(i, department){
+				
+					options.push("<option value=" + department.departmentId + ">" + department.departmentNumber + " - " + department.departmentName + "</option>");
+					
+				});
+				
+				$("#activity_department").append(options);
+				
+			});
+            
+        });
+        
+        // Get the dropdown department
+        var department = $("#activity_department");
+
+        // Add a onchange event
+        department.change(function()
+        {
+
+            $("#activity_city").html("");
+
+            $.getJSON(Routing.generate('add_activity_city_json', { departmentId: this.value }), function(data)
+            {
+                var options = ["<option value='' selected='selected'>Choose a city</option>"];
+                $.each(data, function(i, city){
+
+                    options.push("<option value=" + city.cityId + ">" + city.cityPostalCode + " - " + city.cityName + "</option>");
+
+                });
+
+                $("#activity_city").append(options);
+
+            });
+        });
+
+        // Initialize the drowpdown with the default selected region
+        //$("#activity_region").change();
+        
+    </script>
 {% endblock %}

@@ -10,5 +10,15 @@ namespace JH\TourismeBundle\Repository;
  */
 class DepartmentRepository extends \Doctrine\ORM\EntityRepository
 {
-    
+    public function getByRegion($id)
+    {
+        return $this
+            ->createQueryBuilder("d")
+            ->innerJoin("d.region", "r")
+            ->where("r.id = :id")
+                ->setParameter("id", $id)
+            ->getQuery()
+            ->getArrayResult()
+        ;
+    }
 }
