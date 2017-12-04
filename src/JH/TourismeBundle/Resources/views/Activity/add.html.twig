@@ -96,14 +96,12 @@
         // Add a onchange event
         region.change(function()
         {
-        
-            $("#activity_city").html("Choose a city");
-			$("#activity_department").html("");
-            
+            $("#activity_city").html("<option value='' selected='selected'>Choose a city</option>");
+            $("#activity_department").html("<option value='' selected='selected'>Choose a department</option>");
 			$.getJSON(Routing.generate('add_activity_department_json', { regionId: this.value }), function(data)
             {
 				
-				var options = ["<option value='' selected='selected'>Choose a department</option>"];
+				var options = [];
                 $.each(data, function(i, department){
 				
 					options.push("<option value=" + department.departmentId + ">" + department.departmentNumber + " - " + department.departmentName + "</option>");
@@ -122,12 +120,10 @@
         // Add a onchange event
         department.change(function()
         {
-
-            $("#activity_city").html("");
-
+            $("#activity_city").html("<option value='' selected='selected'>Choose a city</option>");
             $.getJSON(Routing.generate('add_activity_city_json', { departmentId: this.value }), function(data)
             {
-                var options = ["<option value='' selected='selected'>Choose a city</option>"];
+                var options = [];
                 $.each(data, function(i, city){
 
                     options.push("<option value=" + city.cityId + ">" + city.cityPostalCode + " - " + city.cityName + "</option>");

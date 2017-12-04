@@ -21,4 +21,5 @@ class CityRepository extends \Doctrine\ORM\EntityRepository
             ->getArrayResult()
         ;
     }
+    
 }

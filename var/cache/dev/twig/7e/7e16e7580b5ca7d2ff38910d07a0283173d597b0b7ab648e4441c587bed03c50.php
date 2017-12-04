@@ -22,49 +22,49 @@ class __TwigTemplate_0460f42f0cb95e8198f279edfd0542f334c8de6600786c5c79eff90cbbe
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_05a0e4e794d43767488bc224a244e02c5e3898791c9b007c54a57ca9648575a8 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_05a0e4e794d43767488bc224a244e02c5e3898791c9b007c54a57ca9648575a8->enter($__internal_05a0e4e794d43767488bc224a244e02c5e3898791c9b007c54a57ca9648575a8_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "JHTourismeBundle:Activity:add.html.twig"));
+        $__internal_2504e4d67433998e9790081de9e2e64e81308aa175887ac95161ccceff47158b = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_2504e4d67433998e9790081de9e2e64e81308aa175887ac95161ccceff47158b->enter($__internal_2504e4d67433998e9790081de9e2e64e81308aa175887ac95161ccceff47158b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "JHTourismeBundle:Activity:add.html.twig"));
 
-        $__internal_86e7f4c192cbe7a846976c2f8629d78dd38d025b26da2ebb89afb3552e51e889 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_86e7f4c192cbe7a846976c2f8629d78dd38d025b26da2ebb89afb3552e51e889->enter($__internal_86e7f4c192cbe7a846976c2f8629d78dd38d025b26da2ebb89afb3552e51e889_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "JHTourismeBundle:Activity:add.html.twig"));
+        $__internal_2260976fd2a29af886d28e5a79a5ee77a06c30fc0296c4373770deeab4000692 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_2260976fd2a29af886d28e5a79a5ee77a06c30fc0296c4373770deeab4000692->enter($__internal_2260976fd2a29af886d28e5a79a5ee77a06c30fc0296c4373770deeab4000692_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "JHTourismeBundle:Activity:add.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_05a0e4e794d43767488bc224a244e02c5e3898791c9b007c54a57ca9648575a8->leave($__internal_05a0e4e794d43767488bc224a244e02c5e3898791c9b007c54a57ca9648575a8_prof);
+        $__internal_2504e4d67433998e9790081de9e2e64e81308aa175887ac95161ccceff47158b->leave($__internal_2504e4d67433998e9790081de9e2e64e81308aa175887ac95161ccceff47158b_prof);
 
         
-        $__internal_86e7f4c192cbe7a846976c2f8629d78dd38d025b26da2ebb89afb3552e51e889->leave($__internal_86e7f4c192cbe7a846976c2f8629d78dd38d025b26da2ebb89afb3552e51e889_prof);
+        $__internal_2260976fd2a29af886d28e5a79a5ee77a06c30fc0296c4373770deeab4000692->leave($__internal_2260976fd2a29af886d28e5a79a5ee77a06c30fc0296c4373770deeab4000692_prof);
 
     }
 
     // line 3
     public function block_javascript($context, array $blocks = array())
     {
-        $__internal_6fc5f05a8ab946598b9f83487c149790156635279004512f243b807fec76af75 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_6fc5f05a8ab946598b9f83487c149790156635279004512f243b807fec76af75->enter($__internal_6fc5f05a8ab946598b9f83487c149790156635279004512f243b807fec76af75_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascript"));
+        $__internal_3eacb92cc591f8abbe010646f87613d29c309da7d24fc17d15461d243c77f4d8 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_3eacb92cc591f8abbe010646f87613d29c309da7d24fc17d15461d243c77f4d8->enter($__internal_3eacb92cc591f8abbe010646f87613d29c309da7d24fc17d15461d243c77f4d8_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascript"));
 
-        $__internal_f2b25128455cd9d4c763fd768363738d5a5cb031b55e213419144efe79bd6ae0 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_f2b25128455cd9d4c763fd768363738d5a5cb031b55e213419144efe79bd6ae0->enter($__internal_f2b25128455cd9d4c763fd768363738d5a5cb031b55e213419144efe79bd6ae0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascript"));
+        $__internal_0a56eefc86630a9d2dcdc5d767800cea1fbbbee1b3029186db3bda0f0b18448f = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_0a56eefc86630a9d2dcdc5d767800cea1fbbbee1b3029186db3bda0f0b18448f->enter($__internal_0a56eefc86630a9d2dcdc5d767800cea1fbbbee1b3029186db3bda0f0b18448f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascript"));
 
         // line 4
         echo "    <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js\"></script>
 ";
         
-        $__internal_f2b25128455cd9d4c763fd768363738d5a5cb031b55e213419144efe79bd6ae0->leave($__internal_f2b25128455cd9d4c763fd768363738d5a5cb031b55e213419144efe79bd6ae0_prof);
+        $__internal_0a56eefc86630a9d2dcdc5d767800cea1fbbbee1b3029186db3bda0f0b18448f->leave($__internal_0a56eefc86630a9d2dcdc5d767800cea1fbbbee1b3029186db3bda0f0b18448f_prof);
 
         
-        $__internal_6fc5f05a8ab946598b9f83487c149790156635279004512f243b807fec76af75->leave($__internal_6fc5f05a8ab946598b9f83487c149790156635279004512f243b807fec76af75_prof);
+        $__internal_3eacb92cc591f8abbe010646f87613d29c309da7d24fc17d15461d243c77f4d8->leave($__internal_3eacb92cc591f8abbe010646f87613d29c309da7d24fc17d15461d243c77f4d8_prof);
 
     }
 
     // line 7
     public function block_body($context, array $blocks = array())
     {
-        $__internal_84e68b7e0eeab92f2d579754ef207a119d6064c61be2ea4a4da4ec0f1fe78039 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_84e68b7e0eeab92f2d579754ef207a119d6064c61be2ea4a4da4ec0f1fe78039->enter($__internal_84e68b7e0eeab92f2d579754ef207a119d6064c61be2ea4a4da4ec0f1fe78039_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_cd4f7dbbb40826b44397208a17dc319b55156874849b4f700e0f24546302014c = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_cd4f7dbbb40826b44397208a17dc319b55156874849b4f700e0f24546302014c->enter($__internal_cd4f7dbbb40826b44397208a17dc319b55156874849b4f700e0f24546302014c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_20579069f47e54b4ce26a36676d491b6092b9be5f7f8b3174db61b60bb3dca47 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_20579069f47e54b4ce26a36676d491b6092b9be5f7f8b3174db61b60bb3dca47->enter($__internal_20579069f47e54b4ce26a36676d491b6092b9be5f7f8b3174db61b60bb3dca47_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_a871097713e0fcea55fc4e0b26bd326440df9813ac254b93ee5d737b31150573 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_a871097713e0fcea55fc4e0b26bd326440df9813ac254b93ee5d737b31150573->enter($__internal_a871097713e0fcea55fc4e0b26bd326440df9813ac254b93ee5d737b31150573_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 8
         echo "\t<section class=\"section\">
@@ -239,14 +239,12 @@ class __TwigTemplate_0460f42f0cb95e8198f279edfd0542f334c8de6600786c5c79eff90cbbe
         // Add a onchange event
         region.change(function()
         {
-            
-            \$(\"#activity_city\").html(\"\");
-\t\t\t\$(\"#activity_department\").html(\"\");
-            
+            \$(\"#activity_city\").html(\"<option value='' selected='selected'>Choose a city</option>\");
+            \$(\"#activity_department\").html(\"<option value='' selected='selected'>Choose a department</option>\");
 \t\t\t\$.getJSON(Routing.generate('add_activity_department_json', { regionId: this.value }), function(data)
             {
 \t\t\t\t
-\t\t\t\tvar options = [\"<option value='' selected='selected'>Choose a department</option>\"];
+\t\t\t\tvar options = [];
                 \$.each(data, function(i, department){
 \t\t\t\t
 \t\t\t\t\toptions.push(\"<option value=\" + department.departmentId + \">\" + department.departmentNumber + \" - \" + department.departmentName + \"</option>\");
@@ -265,12 +263,10 @@ class __TwigTemplate_0460f42f0cb95e8198f279edfd0542f334c8de6600786c5c79eff90cbbe
         // Add a onchange event
         department.change(function()
         {
-
-            \$(\"#activity_city\").html(\"\");
-
+            \$(\"#activity_city\").html(\"<option value='' selected='selected'>Choose a city</option>\");
             \$.getJSON(Routing.generate('add_activity_city_json', { departmentId: this.value }), function(data)
             {
-                var options = [\"<option value='' selected='selected'>Choose a city</option>\"];
+                var options = [];
                 \$.each(data, function(i, city){
 
                     options.push(\"<option value=\" + city.cityId + \">\" + city.cityPostalCode + \" - \" + city.cityName + \"</option>\");
@@ -288,10 +284,10 @@ class __TwigTemplate_0460f42f0cb95e8198f279edfd0542f334c8de6600786c5c79eff90cbbe
     </script>
 ";
         
-        $__internal_20579069f47e54b4ce26a36676d491b6092b9be5f7f8b3174db61b60bb3dca47->leave($__internal_20579069f47e54b4ce26a36676d491b6092b9be5f7f8b3174db61b60bb3dca47_prof);
+        $__internal_a871097713e0fcea55fc4e0b26bd326440df9813ac254b93ee5d737b31150573->leave($__internal_a871097713e0fcea55fc4e0b26bd326440df9813ac254b93ee5d737b31150573_prof);
 
         
-        $__internal_84e68b7e0eeab92f2d579754ef207a119d6064c61be2ea4a4da4ec0f1fe78039->leave($__internal_84e68b7e0eeab92f2d579754ef207a119d6064c61be2ea4a4da4ec0f1fe78039_prof);
+        $__internal_cd4f7dbbb40826b44397208a17dc319b55156874849b4f700e0f24546302014c->leave($__internal_cd4f7dbbb40826b44397208a17dc319b55156874849b4f700e0f24546302014c_prof);
 
     }
 
@@ -418,14 +414,12 @@ class __TwigTemplate_0460f42f0cb95e8198f279edfd0542f334c8de6600786c5c79eff90cbbe
         // Add a onchange event
         region.change(function()
         {
-            
-            \$(\"#activity_city\").html(\"\");
-\t\t\t\$(\"#activity_department\").html(\"\");
-            
+            \$(\"#activity_city\").html(\"<option value='' selected='selected'>Choose a city</option>\");
+            \$(\"#activity_department\").html(\"<option value='' selected='selected'>Choose a department</option>\");
 \t\t\t\$.getJSON(Routing.generate('add_activity_department_json', { regionId: this.value }), function(data)
             {
 \t\t\t\t
-\t\t\t\tvar options = [\"<option value='' selected='selected'>Choose a department</option>\"];
+\t\t\t\tvar options = [];
                 \$.each(data, function(i, department){
 \t\t\t\t
 \t\t\t\t\toptions.push(\"<option value=\" + department.departmentId + \">\" + department.departmentNumber + \" - \" + department.departmentName + \"</option>\");
@@ -444,12 +438,10 @@ class __TwigTemplate_0460f42f0cb95e8198f279edfd0542f334c8de6600786c5c79eff90cbbe
         // Add a onchange event
         department.change(function()
         {
-
-            \$(\"#activity_city\").html(\"\");
-
+            \$(\"#activity_city\").html(\"<option value='' selected='selected'>Choose a city</option>\");
             \$.getJSON(Routing.generate('add_activity_city_json', { departmentId: this.value }), function(data)
             {
-                var options = [\"<option value='' selected='selected'>Choose a city</option>\"];
+                var options = [];
                 \$.each(data, function(i, city){
 
                     options.push(\"<option value=\" + city.cityId + \">\" + city.cityPostalCode + \" - \" + city.cityName + \"</option>\");
